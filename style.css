@@ -1,11 +1,10 @@
-body{
-    text-align:center;
-    background:#1e1e2f;
-    color:white;
-    font-family:Arial;
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* menghilangkan scroll bar */
+    height: 100%;
 }
 
 canvas{
-    background:black;
-    border:3px solid white;
+    display: block;
 }
